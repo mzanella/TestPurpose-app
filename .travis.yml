@@ -1,5 +1,5 @@
 language: android
-script: gradle test --info
+script: gradle test --debug
 jdk: oraclejdk7
 android:
   components:
