@@ -11,7 +11,7 @@ public class SquareTest extends TestCase {
     }
 
     public void testCalculateArea() throws Exception {
-        assertEquals(4, square.calculateArea());
+        assertEquals(3, square.calculateArea());
     }
 
     public void testCalculatePerimeter() throws Exception {
