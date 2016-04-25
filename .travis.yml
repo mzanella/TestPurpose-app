@@ -2,11 +2,12 @@ language: android
 
 android:
   components:
+  	- tools
 # The BuildTools version used by your project
-    - build-tools-21.1.1
+    - build-tools-23.0.2
 # The SDK version used to compile your project
     - android-23    
-    
+
 # A peculiarity of dependency caching in Gradle means that 
 # to avoid uploading the cache after every build you need 
 #to add the following lines
