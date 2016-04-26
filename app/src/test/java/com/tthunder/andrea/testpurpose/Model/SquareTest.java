@@ -2,6 +2,8 @@ package com.tthunder.andrea.testpurpose.Model;
 
 import junit.framework.TestCase;
 
+import org.junit.runner.RunWith;
+
 public class SquareTest extends TestCase {
     Square square;
 
@@ -11,7 +13,7 @@ public class SquareTest extends TestCase {
     }
 
     public void testCalculateArea() throws Exception {
-        assertEquals(3, square.calculateArea());
+        assertEquals(4, square.calculateArea());
     }
 
     public void testCalculatePerimeter() throws Exception {
